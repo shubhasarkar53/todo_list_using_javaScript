@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    min-height: 70vh;
+    background: url("bg.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    /* border: 1px solid red; */
+    
+}
+.nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 6px;
+}
+.nav_items{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ min-width: 40%;
+ justify-content: space-between;
+ font-size: 1.1rem;
+ 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.heading_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*--learn about it*/
+    text-align: center;
+} 
+
+.main_heading{
+    color: white;
+    font-size: 2rem;
+} 
+
+.btn {
+    padding: 0.8rem;
+    border:none;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.btn_main_heading{
+    margin-top: 10px;
+}
+
+.todo_section h2{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.form_todo{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    margin-top:1rem;
+    
+}
+.form_todo input{
+    padding: 10px;
+ 
+}
+.form_todo input[type="text"]{
+    width: 75%;
+    font-size: medium;
+}
+.form_todo input[type="submit"]{
+    width: 20%;
+    background-color: #217d9b;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.todo_list li {
+    list-style: none;
+    margin-top: 1rem;
+    background-color: #c4ebf9;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.todo_btn{
+    padding: 0.5rem 1rem;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+.alignCenter{
+    align-items: center;
+}
+.justifyCenter{
+    justify-content: center;
+}
